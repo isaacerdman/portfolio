@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import animalBiometricsImage from '../assets/animal-biometrics.png'
 import tweeterAppImage from '../assets/tweeter-app.png'
 import portfolioImage from '../assets/portfolioImage.png'
