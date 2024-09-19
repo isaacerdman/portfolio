@@ -18,36 +18,6 @@ const About = () => {
                         </p>
                         <div className='space-y-4'>
                             <div className='flex items-center'>
-                                <label htmlFor='htmlandcss' className='w-2/12'>HTML & CSS</label>
-                                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                                    <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
-                                    transform transition-tranform duration-300 hover:scale-105 w-8/12'>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='flex items-center'>
-                                <label htmlFor='htmlandcss' className='w-2/12'>React JS</label>
-                                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                                    <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
-                                    transform transition-tranform duration-300 hover:scale-105 w-9/12'>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='flex items-center'>
-                                <label htmlFor='htmlandcss' className='w-2/12'>Node.js</label>
-                                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                                    <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
-                                    transform transition-tranform duration-300 hover:scale-105 w-7/12'>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='flex items-center'>
                                 <label htmlFor='htmlandcss' className='w-2/12'>Python</label>
                                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                                     <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
@@ -61,7 +31,7 @@ const About = () => {
                                 <label htmlFor='htmlandcss' className='w-2/12'>Java</label>
                                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                                     <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
-                                    transform transition-tranform duration-300 hover:scale-105 w-6/12'>
+                                    transform transition-tranform duration-300 hover:scale-105 w-9/12'>
                                         
                                     </div>
                                 </div>
@@ -71,7 +41,36 @@ const About = () => {
                                 <label htmlFor='htmlandcss' className='w-2/12'>C++</label>
                                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                                     <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
-                                    transform transition-tranform duration-300 hover:scale-105 w-9/12'>
+                                    transform transition-tranform duration-300 hover:scale-105 w-10/12'>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex items-center'>
+                                <label htmlFor='htmlandcss' className='w-2/12'>HTML & CSS</label>
+                                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                                    <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
+                                    transform transition-tranform duration-300 hover:scale-105 w-8/12'>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex items-center'>
+                                <label htmlFor='htmlandcss' className='w-2/12'>React JS</label>
+                                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                                    <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
+                                    transform transition-tranform duration-300 hover:scale-105 w-7/12'>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='flex items-center'>
+                                <label htmlFor='htmlandcss' className='w-2/12'>Node.js</label>
+                                <div className='grow bg-gray-800 rounded-full h-2.5'>
+                                    <div className='bg-gradient-to-r from-orange-500 to-yellow-500 h-2.5 rounded-full
+                                    transform transition-tranform duration-300 hover:scale-105 w-5/12'>
                                         
                                     </div>
                                 </div>
@@ -83,12 +82,12 @@ const About = () => {
                                 bg-gradient-to-r from-orange-500 to-yellow-500'>
                                     0
                                 </h3>
-                                <p>Years Experience</p>
+                                <p>Years Experience - excited to start!</p>
                             </div>
                             <div>
                                 <h3 className='text-2xl font-bold text-transparent bg-clip-text
                                 bg-gradient-to-r from-orange-500 to-yellow-500'>
-                                    10+
+                                    5+
                                 </h3>
                                 <p>Projects Completed</p>
                             </div>
@@ -97,7 +96,7 @@ const About = () => {
                                 bg-gradient-to-r from-orange-500 to-yellow-500'>
                                     15+
                                 </h3>
-                                <p>Completed Courses</p>
+                                <p>Relevant Courses Completed</p>
                             </div>
                         </div>
                     </div>

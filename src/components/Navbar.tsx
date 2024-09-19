@@ -12,7 +12,13 @@ const Navbar = () => {
                     <a href="#projects" className='hover:text-gray-400'>Projects</a>
                     <a href="#contact" className='hover:text-gray-400'>Contact</a>
                 </div>
-                <button className='bg-gradient-to-r from-orange-500 to-yellow-500 text-white hidden
+                <button onClick={() => {
+                    const contactSection = document.getElementById('contact');
+                    if (contactSection) {
+                        contactSection.scrollIntoView({ behavior: 'smooth' });
+                    }
+                }}
+                className='bg-gradient-to-r from-orange-500 to-yellow-500 text-white hidden
                 md:inline transform transition-transform duration-300 hover:scale-105 px-4 py-2
                 rounded-full'>Contact Me</button>
             </div>

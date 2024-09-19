@@ -8,9 +8,9 @@ const projects = [
     {
         id: 1,
         name: "This Page!",
-        technologies: "React, TypeScript, Node.js",
+        technologies: "React, TypeScript, Tailwind CSS",
         image: portfolioImage,
-        github: "https://github.com/isaacerdman",
+        github: "https://github.com/isaacerdman/portfolio",
     },
     {
         id: 2,

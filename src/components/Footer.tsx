@@ -12,20 +12,6 @@ const Footer = () => {
                             Computer Science student at BYU graduating in April 2025
                         </p>
                     </div>
-                    <div className='flex-1 w-full'>
-                        <form className='flex items-center justify-center'>
-                            <input
-                                type='email'
-                                placeholder='Enter email'
-                                className='w-full p-2 rounded-l-lg bg-gray-800 border border-gray-600
-                                focus:outline-none focus:border-orange-500'
-                            />
-                            <button
-                                type='submit'
-                                className='bg-gradient-to-r from-orange-500 to-yellow-500 text-white px-4 py-2 rounded-r-lg'
-                            >Subscribe</button>
-                        </form>
-                    </div>
                 </div>
 
                 <div className='border-t border-gray-600 pt-4 flex flex-col md:flex-row justify-between items-center'>
@@ -33,22 +19,23 @@ const Footer = () => {
                         &copy; {new Date().getFullYear()}
                     </p>
                     <div className='flex space-x-4 my-4 md:my-0'>
-                        <a href='#' className='text-gray-400 hover:text-white'>
+                        <a href='https://www.facebook.com/profile.php?id=100012151997485'
+                        className='text-gray-400 hover:text-white'
+                        target='_blank' 
+                        rel='noopener noreferrer'>
                             <FaFacebook />
                         </a>
-                        <a href='#' className='text-gray-400 hover:text-white'>
+                        <a href='https://www.linkedin.com/in/ike-erdman-2b4105224/'
+                        className='text-gray-400 hover:text-white'
+                        target='_blank' 
+                        rel='noopener noreferrer'>
                             <FaLinkedin />
                         </a>
-                        <a href='#' className='text-gray-400 hover:text-white'>
+                        <a href='https://github.com/isaacerdman'
+                        className='text-gray-400 hover:text-white'
+                        target='_blank' 
+                        rel='noopener noreferrer'>
                             <FaGithub />
-                        </a>
-                    </div>
-                    <div className='flex space-x-4'>
-                        <a href='#' className='text-gray-400 hover:text-white'>
-                            Privacy
-                        </a>
-                        <a href='#' className='text-gray-400 hover:text-white'>
-                            Terms of Services
                         </a>
                     </div>
                 </div>

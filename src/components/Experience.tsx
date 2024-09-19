@@ -10,6 +10,11 @@ const roles = [
         id: 2,
         title: "CS & Math Tutor",
         description: "Instructed students age 8-18 in foundational and advanced programming (Python, Java, C++)"
+    },
+    {
+        id: 3,
+        title: "BYU CPC Leadership",
+        description: "Helped coordinate, prepare for, and run competitive programming club meetings"
     }
 ]
 
