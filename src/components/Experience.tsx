@@ -1,4 +1,5 @@
 // import React from 'react'
+import ResumePDF from '../assets/resume.pdf'
 
 const roles = [
     {
@@ -37,7 +38,10 @@ const Experience = () => {
                                 {role.title}
                             </h3>
                             <p className='mt-2 text-gray-300'>{role.description}</p>
-                            <a href='#' className='mt-4 inline-block text-orange-400 hover:text-yellow-400'>Read More</a>
+                            <a href={ResumePDF}
+                            target='_blank' 
+                            rel='noopener noreferrer'
+                            className='mt-4 inline-block text-orange-400 hover:text-yellow-400'>Read More</a>
                         </div>
                     ))}
                 </div>
